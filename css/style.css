@@ -1,0 +1,50 @@
+* {
+   outline: none;
+   box-sizing: border-box;
+}
+
+.round-close {
+   border: 1px solid red;
+   border-radius: 100%;
+   background: red;
+   color: #fff;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+   line-height: 14px;
+}
+
+.block-modal-test {
+   width: 250px;
+   height: 340px;
+   border: 1px solid black;
+   margin: 100px auto;
+   position: relative;
+   overflow: hidden;
+}
+
+.form-slider {
+   width: 500px;
+   height: 340px;
+   background: bisque;
+   display: flex;
+   align-items: start;
+   transition: all ease 1s;
+}
+
+.left-50, .right-50 {
+   flex: 0 1 50%;
+   background: red;
+   padding: 10px;
+}
+
+.right-50 {
+   background: green;
+   max-height: 340px;
+   overflow-y: scroll;
+}
+
+.read-rules, .read-rules-back {
+   cursor: pointer;
+}
+
